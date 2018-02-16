@@ -11,7 +11,7 @@
 </head>
 
 <body>
-	<form:form  modelAttribute="course" action="addCourse" method="POST">
+	<form:form  modelAttribute="course" action="saveCourse" method="POST">
 		<label for="name" >Course Name: </label> <form:input path="name" />
 		<br><br>
 		<label for="description" >Description: </label> <form:textarea path="description" rows="3" />

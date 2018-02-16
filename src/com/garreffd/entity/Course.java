@@ -14,7 +14,7 @@ import javax.persistence.Table;
  *
  */
 
-@Entity
+@Entity 
 @Table(name="course")
 public class Course {
 	@Id //Indicates that this field is a primary key.
